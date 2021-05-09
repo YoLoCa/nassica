@@ -1,0 +1,405 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:Georgia, Helvetica, Sans-Serif;
+	color:#666666;
+}
+.clear{
+	clear:both;
+}
+
+h1,h2,h3{
+	font-family:Georgia, serif;
+	font-weight:normal;
+	color:#000000;
+}
+/*Pagina INICIO_Primera parte:cabecera*/
+
+
+.contenedor{
+	width:900px;
+	margin:auto;
+}
+.cabecera{
+	width:900px;
+	height:264px;
+	background-image:url(images/FONDO1.jpg);
+	background-repeat:no-repeat;
+	margin:auto;
+}
+
+.info{
+	float:right;
+	width:840px;
+	height:40px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-align:right;
+	line-height:40px;
+}
+
+.face{
+	width:36px;
+	height:37px;
+	float:right;
+	margin-left:20px;
+}
+ /*Parte del menú*/
+ 
+ .menu{
+	 width:900px;
+	 height:70px;
+	 margin:auto;
+	 border-bottom:3px inset #333333;
+ }
+ .li{ 
+ 	 padding-left:10px;
+ 	 padding-right:10px;
+	 padding-top:3px;
+	 padding-bottom:3px;
+	 float:left;
+ }
+ .menus{
+ 	 color:#000000;
+	 list-style-type:none;
+	 text-decoration:none;
+ }
+ 
+ .enlace{
+	 height:30px;
+	 float:left;
+}
+ 
+ .sn{
+	 
+	 text-decoration:none;
+	 text-transform:capitalize;
+	 font-size:22px;
+	 font-family: Geneva, Arial, Helvetica, sans-serif;
+	 font-weight:normal;
+	 line-height:40px;
+ }
+ 
+ .menus:hover, .li:hover, .menus:active, .li:active{
+	
+	 border-radius: 5px;
+	 background:#FF9900;
+ }
+
+ 
+ /*Parte noticias*/
+
+ 
+ .foto{
+	 width:541px;
+	 height:325px;
+	 background-image:url(images/big-slide-1_juguetes.jpg);
+	 margin-top:30px;
+	 float:left;
+ }
+ .cumpleaños{
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 width:340px;
+	 height:325px;
+	 float:left;
+	 margin-top:30px;
+	 margin-left:10px;
+}
+.titulos{
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.pnoti{
+	text-align:left;
+}
+.srojo{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color:#FF0000;
+	font-size:12px;
+}
+.cuidamos{
+	float:left;
+	width:240px;
+	height:460px;
+	text-align:center;
+	margin-left:40px;
+	margin-top:20px;
+}
+.foto1{
+	width:195px;
+	height:233px;
+	background-image:url(images/boreux.jpg);
+	margin-top:30px;
+	margin-left:20px;
+}
+.foto2{
+	width:195px;
+	height:233px;
+	background-image:url(images/rss_2.jpg);
+	background-repeat:no-repeat;
+	margin-top:30px;
+	margin-left:20px;
+}
+.foto3{
+	width:195px;
+	height:233px;
+	background-image:url(images/revista.jpg);
+	background-repeat:no-repeat;
+	margin-top:30px;
+	margin-left:40px;
+}
+
+/*Parte final*/
+
+.contfinal{
+	width:900px;
+	height:200px;
+	margin:auto;
+
+}
+.final{
+	width:900px;
+	height:40px;
+	float:left;
+	text-align:center;
+	text-transform:uppercase;
+	padding-top:30px;
+	color:#FF0000;
+	border-top:3px inset #333333;
+}
+
+.barrita{
+	color:#000000;
+}
+
+.pfinal{
+	float:left;
+	margin-top:20px;
+	width:900px;
+	height:40px;
+}
+
+.pultimo{
+	font-size:10px;
+	line-height:20px;
+	text-align:center;
+}
+
+/*Parte horarios*/
+.conthorarios{
+	width:900px;
+	margin:auto;
+}
+.hr1{
+	width:280px;
+	height:500px;
+	float:left;
+	text-align:center;
+	margin-right:20px;
+}
+.phr1{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+.hr2{
+	width:280px;
+	height:500px;
+	float:left;
+	text-align:center;
+	margin-right:10px;
+	
+}
+.hr3{
+	width:280px;
+	height:500px;
+	float:left;
+	text-align:center;
+	margin-right:10px
+}
+
+.gris2{
+	color:#666666;
+	font-weight:bold;
+	font-size:14px;
+}
+/*Parte como servicios*/
+
+.cvparrafo{
+	margin-bottom: 20px;
+}
+.cvfoto{
+	margin-bottom: 30px;
+}
+/*Parte como venir*/
+
+.cvfotos{
+	height:500px;
+	width:900px;
+	padding-top: 40px;
+	margin:0 auto;
+}
+.coche{
+	width:250px;
+	height:61px;
+	background-image:url(images/_extra/venir/coche.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:40px;
+}
+.bus{
+	width:250px;
+	height:61px;
+	background-image:url(images/_extra/venir/BUS.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:40px;
+}
+.tren{
+	width:260px;
+	height:61px;
+	background-image:url(images/_extra/venir/tren.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:40px;
+}
+
+.negrito{
+	font-weight:bold;
+	font-size:14px;
+}
+
+.gris{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#666666;
+	font-size:13px;
+}
+.footer_venir{
+	width:900px;
+	display: block;
+	margin: 0 auto;
+}
+/*Página Factory*/
+
+.fotofactory1{
+	width:900px;
+	height:200px;
+	background-image:url(images/_extra/factory/fact.jpg);
+	background-repeat:no-repeat;
+	margin-top:50px;
+	float:left;
+}
+
+.factory1{
+	width:270px;
+	height:400px;
+	margin-right:40px;
+	float:left;
+}
+
+.factory2{
+	width:180px;
+	height:400px;
+	float:left;
+}
+
+/*Página Cine*/
+
+.s2rojo,.enlacerojo{
+	color:#FF0000;
+	text-decoration:none;
+	
+}
+
+.cinebanner{
+	width:900px;
+	height:180px;
+	margin-top:30px;
+	float:left;
+	background-image:url(images/_extra/cine/cine.jpg);
+	background-repeat:no-repeat;
+	background-position:top right;
+}
+
+.cartelera{
+	width:220px;
+	height:800px;
+	margin-right:80px;
+	margin-top:30px;
+	float:left;
+}
+
+/*Página Directorio*/
+
+.bannerdirect1{
+	width:260px;
+	height:200px;
+	float:left;
+	margin-right:40px;
+	background-image:url(images/_extra/directorio/rest.jpg);
+	background-repeat:no-repeat;
+}
+.bannerdirect2{
+	width:260px;
+	height:200px;
+	float:left;
+	margin-right:40px;
+	background-image:url(images/_extra/directorio/compras.jpg);
+	background-repeat:no-repeat;
+}
+.bannerdirect3{
+	width:260px;
+	height:200px;
+	float:left;
+	margin-right:40px;
+	background-image:url(images/_extra/directorio/wow.jpg);
+	background-repeat:no-repeat;
+}
+
+.resta{
+	width:145px;
+	height:200px;
+	margin-right:80px;
+	float:left;
+}
+/*Página conoce nassica*/
+
+.conoce{
+	float:left;
+	margin-top:40px;
+	width:900px;
+	height:400px;
+}
+.conoce2{
+	width:900px;
+	height:160px;
+	float:left;
+	margin-top:40px;
+
+}
+.conocepeque{
+	width:170px;
+	height:250px;
+	float:left;
+	margin-right:10px;
+}
+
+.quees{
+	width:275px;
+	margin-right:60px;
+	float:left;
+	margin-top:10px;
+	text-align:justify;
+	line-height:30px;
+}
+.quees2{
+	width:200px;
+	margin-right:30px;
+	float:left;
+	text-align:left;
+	margin-top:10px;
+	line-height:30px;
+}

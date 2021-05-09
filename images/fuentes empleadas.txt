@@ -1,0 +1,9 @@
+En la página de Nassica se emplean las siguientes fuentes:
+
+Seguro que para el body se usa: 
+	font-family: Georgia, Helvetica, Sans-Serif;
+Las demás, se emplean en diversas partes...
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
